@@ -1,0 +1,310 @@
+/* Performance */
+.performanceGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.performanceCard {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid #334155;
+}
+.performanceContent {
+  padding: 1rem;
+}
+.performanceHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.performanceZapIcon {
+  width: 1rem;
+  height: 1rem;
+  color: #facc15;
+}
+.performanceOpenTrades {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+.performancePing {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: #facc15;
+  border-radius: 9999px;
+  animation: ping 1.5s infinite;
+}
+@keyframes ping {
+  0% { transform: scale(1); opacity: 1; }
+  75%, 100% { transform: scale(2); opacity: 0; }
+}
+.performanceActiveTrades {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.performanceOpenTradesPL {
+  color: #f87171;
+  font-size: 0.75rem;
+}
+.performanceSettingsIcon {
+  width: 1rem;
+  height: 1rem;
+  color: #60a5fa;
+}
+.performanceLastTrade {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+.performanceLastTradeTime {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.performanceLastTradeAgo {
+  color: #9ca3af;
+  font-size: 0.75rem;
+}
+
+/* Trades Slider */
+.tradesSliderCard {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid #334155;
+  margin-bottom: 1.5rem;
+}
+.tradesSliderHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tradesSliderTitle {
+  color: #fff;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tradesSliderZapIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #facc15;
+}
+.tradesSliderNav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tradesSliderNavBtn {
+  width: 2rem;
+  height: 2rem;
+  color: #9ca3af;
+}
+.tradesSliderNavIcon {
+  width: 1rem;
+  height: 1rem;
+}
+.tradesSliderNavText {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+.tradesSliderContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.tradesSliderTradeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tradesSliderTradeHeaderLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tradesSliderPair {
+  color: #fff;
+  font-weight: 600;
+}
+.badgeActive {
+  background: rgba(34,197,94,0.2);
+  color: #4ade80;
+  border: none;
+}
+.badgeAveraging {
+  background: rgba(253,224,71,0.2);
+  color: #fde047;
+  border: none;
+}
+.badgeOther {
+  background: rgba(59,130,246,0.2);
+  color: #3b82f6;
+  border: none;
+}
+.tradesSliderTradeTime {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+.privacyNotice {
+  background: rgba(253,224,71,0.1);
+  border: 1px solid rgba(253,224,71,0.3);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+.privacyNoticeHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.privacyNoticeIcon {
+  width: 1rem;
+  height: 1rem;
+  color: #fde047;
+}
+.privacyNoticeTitle {
+  color: #fde047;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.privacyNoticeText {
+  color: #fef08a;
+  font-size: 0.75rem;
+}
+.spreadAnalysisBox {
+  background: rgba(30,41,59,0.5);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.spreadAnalysisTitle {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.spreadAnalysisGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-size: 0.75rem;
+}
+.spreadAnalysisCurrentLabel,
+.spreadAnalysisAvgLabel {
+  color: #9ca3af;
+}
+.spreadAnalysisCurrentValue,
+.spreadAnalysisAvgValue {
+  color: #fff;
+  margin-left: 0.5rem;
+}
+.strategyText {
+  color: #d1d5db;
+  font-size: 0.75rem;
+}
+.strategyRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+.strategyExpectedLabel,
+.strategyConfidenceLabel {
+  color: #9ca3af;
+}
+.strategyExpectedValue {
+  color: #4ade80;
+}
+.strategyConfidenceValue {
+  color: #fff;
+}
+.positionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
+.positionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.positionPair {
+  color: #9ca3af;
+  text-transform: uppercase;
+}
+.positionInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.positionBadgeLong {
+  background: rgba(34,197,94,0.2);
+  color: #4ade80;
+  border: none;
+  font-size: 0.75rem;
+}
+.positionBadgeShort {
+  background: rgba(239,68,68,0.2);
+  color: #ef4444;
+  border: none;
+  font-size: 0.75rem;
+}
+.positionAmount {
+  color: #fff;
+}
+.positionAvgPrice {
+  color: #9ca3af;
+}
+.currentPLRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  border-top: 1px solid #334155;
+}
+.currentPLLabel {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+.currentPLValueWrapper {
+  text-align: right;
+}
+.currentPLValuePositive {
+  font-weight: 600;
+  color: #4ade80;
+}
+.currentPLValueNegative {
+  font-weight: 600;
+  color: #ef4444;
+}
+.currentPLPercentPositive {
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  color: #4ade80;
+}
+.currentPLPercentNegative {
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  color: #ef4444;
+}
+.averagingLevelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.averagingLevelLabel {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+.averagingLevelBadge {
+  background: rgba(253,224,71,0.2);
+  color: #fde047;
+  border: none;
+}
+
+.strategyBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}

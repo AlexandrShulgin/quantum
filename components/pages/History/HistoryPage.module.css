@@ -1,0 +1,147 @@
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.titleIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #ffffff;
+}
+.subtitle {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+/* Trades List */
+.tradesList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  height: calc(100vh - 324px);
+  overflow-y: auto;
+}
+.tradeCard {
+  background: rgba(30,41,59,0.5);
+  border: 1px solid #334155;
+}
+.tradeCardContent {
+  padding: 1rem;
+}
+.tradeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tradeRowLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.tradeIconGreen {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  background: rgba(34,197,94,0.125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tradeIconRed {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 9999px;
+  background: rgba(239,68,68,0.125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tradeArrowGreen {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #4ade80;
+}
+.tradeArrowRed {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #ef4444;
+}
+.tradePair {
+  font-weight: 600;
+  color: #fff;
+}
+.tradeInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+.tradeRowRight {
+  text-align: right;
+}
+.tradeProfitGreen {
+  font-weight: 600;
+  color: #4ade80;
+}
+.tradeProfitRed {
+  font-weight: 600;
+  color: #ef4444;
+}
+.tradePercentGreen {
+  font-size: 0.75rem;
+  color: #4ade80;
+}
+.tradePercentRed {
+  font-size: 0.75rem;
+  color: #ef4444;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.paginationBtn {
+  border: 1px solid #334155;
+  color: #fff;
+  background: transparent;
+  transition: background 0.2s;
+}
+.paginationBtn:disabled {
+  opacity: 0.5;
+}
+.paginationNumbers {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.paginationNumber {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  color: #9ca3af;
+  background: transparent;
+  transition: color 0.2s, background 0.2s;
+}
+.paginationNumber:hover {
+  color: #fff;
+}
+.paginationNumberActive {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  background: #7c3aed;
+  color: #fff;
+}
