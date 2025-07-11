@@ -106,33 +106,6 @@ const Main = () => {
   return (
     <>
     <StatisticsCard/>
-    {/* Enhanced Bot Performance */}
-    <div className={styles.performanceGrid}>
-      <Card className={styles.performanceCard}>
-        <CardContent className={styles.performanceContent}>
-          <div className={styles.performanceHeader}>
-            <Zap className={styles.performanceZapIcon} />
-            <p className={styles.performanceOpenTrades}>{t.openTrades}</p>
-            <div className={styles.performancePing}></div>
-          </div>
-          <p className={styles.performanceActiveTrades}>{realTimeData.activeTrades}</p>
-          <p className={styles.performanceOpenTradesPL}>{botStats.openTradesPL}</p>
-        </CardContent>
-      </Card>
-      <Card className={styles.performanceCard}>
-        <CardContent className={styles.performanceContent}>
-          <div className={styles.performanceHeader}>
-            <Settings className={styles.performanceSettingsIcon} />
-            <p className={styles.performanceLastTrade}>{language === "ru" ? "Последняя сделка" : "Last Trade"}</p>
-          </div>
-          <p className={styles.performanceLastTradeTime}>
-            {Math.floor(realTimeData.lastTradeTime / 60)}m {realTimeData.lastTradeTime % 60}s
-          </p>
-          <p className={styles.performanceLastTradeAgo}>{language === "ru" ? "назад" : "ago"}</p>
-        </CardContent>
-      </Card>
-    </div>
-
     {/* Active Trades Slider */}
     <Card className={styles.tradesSliderCard}>
       <CardHeader>
