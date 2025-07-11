@@ -7,8 +7,8 @@
 
 /* User Card */
 .userCard {
-  background: rgba(30,41,59,0.5);
-  border: 1px solid #334155;
+  background: rgb(28 28 58);
+  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .userCardContent {
@@ -165,8 +165,8 @@
   overflow-y: auto;
 }
 .tradeCard {
-  background: rgba(30,41,59,0.5);
-  border: 1px solid #334155;
+  background: rgb(28 28 58);
+  border: 1px solid rgb(42 42 74);
 }
 .tradeCardContent {
   padding: 1rem;
