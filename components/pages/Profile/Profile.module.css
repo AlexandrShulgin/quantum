@@ -1,14 +1,13 @@
 /* Заголовок */
 .title {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+  color: #000;
 }
 
 /* User Card */
 .userCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .userCardContent {
@@ -31,7 +30,6 @@
 .userName {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #fff;
 }
 .userRole {
   color: #9ca3af;
@@ -49,7 +47,6 @@
   color: #9ca3af;
 }
 .userStatsValue {
-  color: #fff;
 }
 .userStatsValuePurple {
   color: #a78bfa;
@@ -139,7 +136,7 @@
   margin-bottom: 1.5rem;
 }
 .title {
-  font-size: 1.875rem;
+  font-size: 1rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -165,8 +162,6 @@
   overflow-y: auto;
 }
 .tradeCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
 }
 .tradeCardContent {
   padding: 1rem;
@@ -211,7 +206,6 @@
 }
 .tradePair {
   font-weight: 600;
-  color: #fff;
 }
 .tradeInfo {
   display: flex;
@@ -247,8 +241,7 @@
   justify-content: space-between;
 }
 .paginationBtn {
-  border: 1px solid #334155;
-  color: #fff;
+  color: #000;
   background: transparent;
   transition: background 0.2s;
 }
@@ -269,12 +262,12 @@
   transition: color 0.2s, background 0.2s;
 }
 .paginationNumber:hover {
-  color: #fff;
 }
+
 .paginationNumberActive {
   width: 2rem;
   height: 2rem;
   padding: 0;
-  background: #7c3aed;
+  background: var(--primary-bg);
   color: #fff;
 }

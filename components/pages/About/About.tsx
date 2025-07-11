@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/uiKit/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/uiKit/Card/card'
 import { Brain, DollarSign, Info, Settings, Shield, TrendingUp } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 import { translations } from "@/lib/translations"

@@ -1,7 +1,7 @@
 /* Корневой контейнер */
 .root {
   min-height: 100vh;
-  background: #0f0f23;
+  background: #ffffff;
   color: #ffffff;
 }
 
@@ -21,7 +21,7 @@
 .languageSwitcher {
   display: flex;
   align-items: center;
-  background: rgba(30,41,59,0.5);
+  background: var(--gray-bg);
   border-radius: 0.5rem;
   padding: 0.25rem;
 }
@@ -40,14 +40,14 @@
   height: 1.75rem;
   padding: 0 0.5rem;
   font-size: 0.75rem;
-  background: #207fd1;
+  background: var(--primary-bg);
   color: #fff;
 }
 .statusWrapper {
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  background: rgba(13, 136, 58, 0.4);
+  background: var(--green-badge-bg);
   padding: 0 0.5rem;
   border-radius: 9999px;
   margin-left: 0.75rem;
@@ -55,7 +55,7 @@
 .statusDot {
   width: 0.5rem;
   height: 0.5rem;
-  background: #4ade80;
+  background: var(--green-badge-text);
   border-radius: 9999px;
   animation: pulse 1.5s infinite;
 }
@@ -64,7 +64,7 @@
   50% { opacity: 0.5; }
 }
 .statusText {
-  color: #4ade80;
+  color: var(--green-badge-text);
   font-size: 0.75rem;
 }
 
@@ -81,9 +81,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(15,23,42,0.95);
   backdrop-filter: blur(8px);
-  border-top: 1px solid #334155;
+  border-top: 1px solid hsl(var(--border));
 }
 .bottomNavInner {
   display: flex;
@@ -99,12 +98,12 @@
   gap: 0.25rem;
   height: auto;
   padding: 0.5rem 0.5rem;
-  color: #9ca3af;
+  color: #000;
   background: transparent;
   transition: color 0.2s;
 }
 .bottomNavBtn:hover {
-  color: #fff;
+  color: #404040;
 }
 .bottomNavBtnActive {
   display: flex;
@@ -113,7 +112,7 @@
   gap: 0.25rem;
   height: auto;
   padding: 0.5rem 0.5rem;
-  color: #207fd1;
+  color: var(--primary-bg);
   background: transparent;
 }
 .bottomNavIcon {

@@ -4,6 +4,17 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  --gray-bg: #f3f6fa;
+  --gray-text: #9ca3af;
+  --primary-bg: #2563eb;
+  --green-text: #16a367;
+  --green-alert-bg: #f0fdf4;
+  --green-alert-border: #bbf7d0;
+  --green-badge-bg: #d1fae5;
+  --green-badge-text: #15803d;
+  --yellow-alert-bg: #fffbeb;
+  --yellow-alert-border: #fef9c3;
+  --yellow-alert-text: #b45309;
 }
 
 @layer utilities {

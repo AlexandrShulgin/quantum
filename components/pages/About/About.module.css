@@ -1,22 +1,21 @@
 /* Заголовок */
 .title {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: #000;
 }
 .titleIcon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #ffffff;
+  color: #000;
 }
 
 /* Основная карточка */
 .mainCard {
-  background: linear-gradient(to right, rgba(37,99,235,0.5), rgba(124,58,237,0.5));
-  border: 1px solid rgba(59,130,246,0.188);
   margin-bottom: 1.5rem;
 }
 .mainCardContent {
@@ -36,24 +35,19 @@
 .mainCardTitle {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #fff;
 }
 .mainCardSubtitle {
-  color: #bfdbfe;
+  color: var(--gray-text);
 }
 .mainCardDesc {
-  color: #e5e7eb;
   line-height: 1.6;
 }
 
 /* How It Works */
 .howItWorksCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .howItWorksTitle {
-  color: #fff;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -87,7 +81,6 @@
   font-size: 1rem;
 }
 .howItWorksStepTitle {
-  color: #fff;
   font-weight: 500;
   margin-bottom: 0.25rem;
 }
@@ -98,12 +91,9 @@
 
 /* Profit Distribution */
 .profitCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .profitTitle {
-  color: #fff;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -155,12 +145,10 @@
 
 /* Performance */
 .performanceCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .performanceTitle {
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -168,6 +156,7 @@
 .performanceIcon {
   width: 1.25rem;
   height: 1.25rem;
+  color: #000;
 }
 .performanceGrid {
   display: grid;
@@ -204,12 +193,9 @@
 
 /* Advantages */
 .advantagesCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .advantagesTitle {
-  color: #fff;
   display: flex;
   align-items: center;
   gap: 0.5rem;

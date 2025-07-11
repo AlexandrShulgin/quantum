@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/uiKit/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/uiKit/Card/card'
 import { translations } from '@/lib/translations'
 import { Avatar, AvatarFallback, AvatarImage } from '@radix-ui/react-avatar'
 import { ArrowDownRight, ArrowUpRight, Settings } from 'lucide-react'

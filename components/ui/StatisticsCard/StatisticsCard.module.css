@@ -1,7 +1,4 @@
 .statisticsCard {
-  background: #207fd1;
-  border: none;
-  color: #fff;
   margin-bottom: 1.5rem;
 }
 .statisticsContent {
@@ -18,9 +15,7 @@
   align-items: center;
   gap: 0.5rem;
 }
-.statisticsTitle {
-  color: #ede9fe;
-}
+
 .statisticsLiveWrapper {
   display: flex;
   align-items: center;
@@ -29,7 +24,7 @@
 .statisticsLiveDot {
   width: 0.5rem;
   height: 0.5rem;
-  background: #4ade80;
+  background: var(--green-text);
   border-radius: 9999px;
   animation: pulse 1.5s infinite;
 }
@@ -38,7 +33,7 @@
   50% { opacity: 0.5; }
 }
 .statisticsLiveText {
-  color: #6ee7b7;
+  color: var(--green-text);
   font-size: 0.75rem;
 }
 .statisticsPLWrapper {
@@ -57,10 +52,10 @@
 .statisticsPLTodayIcon {
   width: 1rem;
   height: 1rem;
-  color: #6ee7b7;
+  color: var(--green-text);
 }
 .statisticsPLTodayText {
-  color: #6ee7b7;
+  color: var(--green-text);
   font-size: 0.875rem;
 }
 .statisticsInfoWrapper {
@@ -74,11 +69,10 @@
   align-items: center;
 }
 .statisticsInvested {
-  color: #fff;
   font-weight: 600;
 }
 .statisticsCurrentValue {
-  color: #4ade80;
+  color: var(--green-text);
   font-weight: 600;
 }
 .statisticsButtonsWrapper {
@@ -87,28 +81,29 @@
   margin-top: 1rem;
 }
 .investButton {
-  background: #16a34a;
+  background: var(--primary-bg);
   flex: 1;
   color: #fff;
   transition: background 0.2s;
 }
 .investButton:hover {
-  background: #166534;
+
 }
+
 .investButtonIcon {
   width: 1rem;
   height: 1rem;
   margin-right: 0.5rem;
 }
 .withdrawButton {
-  border: 1px solid #334155;
-  color: #fff;
+  border: 1px solid var(--primary-bg);
   background: transparent;
   flex: 1;
   transition: background 0.2s;
+  color: var(--primary-bg);
 }
 .withdrawButton:hover {
-  background: #334155;
+
 }
 .withdrawButtonIcon {
   width: 1rem;

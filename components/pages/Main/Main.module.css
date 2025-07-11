@@ -5,10 +5,7 @@
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
-.performanceCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
-}
+
 .performanceContent {
   padding: 1rem;
 }
@@ -68,8 +65,6 @@
 
 /* Trades Slider */
 .tradesSliderCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
   margin-bottom: 1.5rem;
 }
 .tradesSliderHeader {
@@ -78,7 +73,6 @@
   justify-content: space-between;
 }
 .tradesSliderTitle {
-  color: #fff;
   font-size: 1.125rem;
   display: flex;
   align-items: center;
@@ -97,14 +91,12 @@
 .tradesSliderNavBtn {
   width: 2rem;
   height: 2rem;
-  color: #9ca3af;
 }
 .tradesSliderNavIcon {
   width: 1rem;
   height: 1rem;
 }
 .tradesSliderNavText {
-  color: #9ca3af;
   font-size: 0.875rem;
 }
 .tradesSliderContent {
@@ -123,7 +115,6 @@
   gap: 0.5rem;
 }
 .tradesSliderPair {
-  color: #fff;
   font-weight: 600;
 }
 .badgeActive {
@@ -142,12 +133,11 @@
   border: none;
 }
 .tradesSliderTradeTime {
-  color: #9ca3af;
   font-size: 0.875rem;
 }
 .privacyNotice {
-  background: rgba(253,224,71,0.1);
-  border: 1px solid rgba(253,224,71,0.3);
+  background: var(--yellow-alert-bg);
+  border: 1px solid var(--yellow-alert-border);
   border-radius: 0.5rem;
   padding: 0.75rem;
 }
@@ -160,19 +150,19 @@
 .privacyNoticeIcon {
   width: 1rem;
   height: 1rem;
-  color: #fde047;
+  color: var(--yellow-alert-text);
 }
 .privacyNoticeTitle {
-  color: #fde047;
+  color: var(--yellow-alert-text);
   font-size: 0.875rem;
   font-weight: 500;
 }
 .privacyNoticeText {
-  color: #fef08a;
+  color: var(--yellow-alert-text);
   font-size: 0.75rem;
 }
 .spreadAnalysisBox {
-  background: rgba(30,41,59,0.5);
+  background: var(--gray-bg);
   padding: 0.75rem;
   border-radius: 0.5rem;
   display: flex;
@@ -180,7 +170,6 @@
   gap: 1rem;
 }
 .spreadAnalysisTitle {
-  color: #fff;
   font-weight: 500;
   font-size: 0.875rem;
 }
@@ -192,15 +181,12 @@
 }
 .spreadAnalysisCurrentLabel,
 .spreadAnalysisAvgLabel {
-  color: #9ca3af;
 }
 .spreadAnalysisCurrentValue,
 .spreadAnalysisAvgValue {
-  color: #fff;
   margin-left: 0.5rem;
 }
 .strategyText {
-  color: #d1d5db;
   font-size: 0.75rem;
 }
 .strategyRow {
@@ -210,13 +196,11 @@
 }
 .strategyExpectedLabel,
 .strategyConfidenceLabel {
-  color: #9ca3af;
 }
 .strategyExpectedValue {
   color: #4ade80;
 }
 .strategyConfidenceValue {
-  color: #fff;
 }
 .positionsList {
   display: flex;
@@ -230,7 +214,6 @@
   align-items: center;
 }
 .positionPair {
-  color: #9ca3af;
   text-transform: uppercase;
 }
 .positionInfo {
@@ -251,10 +234,8 @@
   font-size: 0.75rem;
 }
 .positionAmount {
-  color: #fff;
 }
 .positionAvgPrice {
-  color: #9ca3af;
 }
 .currentPLRow {
   display: flex;
@@ -264,7 +245,6 @@
   border-top: 1px solid #334155;
 }
 .currentPLLabel {
-  color: #9ca3af;
   font-size: 0.875rem;
 }
 .currentPLValueWrapper {
@@ -294,7 +274,6 @@
   justify-content: space-between;
 }
 .averagingLevelLabel {
-  color: #9ca3af;
   font-size: 0.875rem;
 }
 .averagingLevelBadge {

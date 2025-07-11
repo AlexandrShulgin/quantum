@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Card, CardContent } from '../uiKit/card'
+import { Card, CardContent } from '../uiKit/Card/card'
 import { ArrowUpRight, Minus, Plus } from 'lucide-react'
 import styles from './StatisticsCard.module.css'
 import { translations } from '@/lib/translations'

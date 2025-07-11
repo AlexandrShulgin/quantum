@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/uiKit/button'
-import { Card, CardContent } from '@/components/ui/uiKit/card'
+import { Card, CardContent } from '@/components/ui/uiKit/Card/card'
 import { translations } from '@/lib/translations'
 import { ArrowDownRight, ArrowUpRight, History } from 'lucide-react'
 import React, { useState } from 'react'

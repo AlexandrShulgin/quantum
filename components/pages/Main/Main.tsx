@@ -1,6 +1,6 @@
 import { Badge } from '@/components/ui/uiKit/badge'
 import { Button } from '@/components/ui/uiKit/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/uiKit/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/uiKit/Card/card'
 import { translations } from '@/lib/translations'
 import { ArrowLeft, ArrowRight, ArrowUpRight, Minus, Plus, Settings, Shield, Zap } from 'lucide-react'
 import React, { useState } from 'react'

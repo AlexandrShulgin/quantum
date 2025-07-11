@@ -6,19 +6,20 @@
   margin-bottom: 1.5rem;
 }
 .title {
-  font-size: 1.875rem;
+  font-size: 1rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: #000;
 }
 .titleIcon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #ffffff;
+  color: #000;
 }
 .subtitle {
-  color: #9ca3af;
+  color: var(--gray-text);
   font-size: 0.875rem;
 }
 
@@ -32,8 +33,6 @@
   overflow-y: auto;
 }
 .tradeCard {
-  background: rgb(28 28 58);
-  border: 1px solid rgb(42 42 74);
 }
 .tradeCardContent {
   padding: 1rem;
@@ -78,7 +77,6 @@
 }
 .tradePair {
   font-weight: 600;
-  color: #fff;
 }
 .tradeInfo {
   display: flex;
@@ -114,8 +112,7 @@
   justify-content: space-between;
 }
 .paginationBtn {
-  border: 1px solid #334155;
-  color: #fff;
+  color: #000;
   background: transparent;
   transition: background 0.2s;
 }
@@ -136,12 +133,12 @@
   transition: color 0.2s, background 0.2s;
 }
 .paginationNumber:hover {
-  color: #fff;
 }
+
 .paginationNumberActive {
   width: 2rem;
   height: 2rem;
   padding: 0;
-  background: #7c3aed;
+  background: var(--primary-bg);
   color: #fff;
 }
