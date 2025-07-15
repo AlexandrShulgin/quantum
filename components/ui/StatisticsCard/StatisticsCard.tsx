@@ -29,10 +29,6 @@ const StatisticsCard = () => {
         <div className={styles.statisticsHeader}>
           <div className={styles.statisticsHeaderLeft}>
             <p className={styles.statisticsTitle}>{type === "new" ? t.tradingStatistics : t.botStatistics}</p>
-            <div className={styles.statisticsLiveWrapper}>
-              <div className={styles.statisticsLiveDot}></div>
-              <span className={styles.statisticsLiveText}>LIVE</span>
-            </div>
           </div>
         </div>
         <div className={styles.statisticsPLWrapper}>

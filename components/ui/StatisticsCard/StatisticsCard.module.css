@@ -16,6 +16,10 @@
   gap: 0.5rem;
 }
 
+.statisticsTitle {
+  font-size: 0.75rem;
+}
+
 .statisticsLiveWrapper {
   display: flex;
   align-items: center;
