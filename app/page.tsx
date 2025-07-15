@@ -28,50 +28,8 @@ export default function QuantumFund() {
   return (
     <div className={styles.root}>
       {/* Header */}
-      <div className={styles.header} style={{display: 'none'}}>
-        <div className={styles.headerLeft}>
-          <div className={styles.languageSwitcher}>
-            <Button
-              variant={type === "new" ? "default" : "ghost"}
-              size="sm"
-              className={type === "new" ? styles.langBtnActive : styles.langBtn}
-              onClick={() => setNew()}
-            >
-              new
-            </Button>
-            <Button
-              variant={type === "old" ? "default" : "ghost"}
-              size="sm"
-              className={type === "old" ? styles.langBtnActive : styles.langBtn}
-              onClick={() => setOld()}
-            >
-              old
-            </Button>
-          </div>
-          {/* Language Switcher */}
-          <div className={styles.languageSwitcher}>
-            <Button
-              variant={language === "ru" ? "default" : "ghost"}
-              size="sm"
-              className={language === "ru" ? styles.langBtnActive : styles.langBtn}
-              onClick={() => setRu()}
-            >
-              RU
-            </Button>
-            <Button
-              variant={language === "en" ? "default" : "ghost"}
-              size="sm"
-              className={language === "en" ? styles.langBtnActive : styles.langBtn}
-              onClick={() => setEn()}
-            >
-              EN
-            </Button>
-          </div>
-          <div className={styles.statusWrapper}>
-            <div className={styles.statusDot}></div>
-            <span className={styles.statusText}>19:30:26</span>
-          </div>
-        </div>
+      <div className={styles.header}>
+        Name Surname
       </div>
 
       {/* Main Content */}

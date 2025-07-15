@@ -32,13 +32,13 @@
 .subtitle {
   color: var(--gray-text);
   font-size: 0.8rem;
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 
 .subtitlePL {
   color: var(--green-text);
   font-size: 0.8rem;
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 
 /* Trades List */
@@ -105,7 +105,7 @@
 .tradeInfo span {
   font-size: 0.8rem;
   color: #9ca3af;
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 
 .tradeRowRight {
@@ -126,12 +126,12 @@
 .tradePercentGreen {
   font-size: 0.8rem;
   color: var(--green-text);
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 .tradePercentRed {
   font-size: 0.8rem;
   color: var(--red-text);
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 
 /* Pagination */
@@ -144,6 +144,7 @@
   color: #fff;
   background: var(--primary-bg);
   transition: background 0.2s;
+  font-weight: 600;
 }
 
 .paginationBtn:hover {
@@ -169,6 +170,7 @@
   color: #9ca3af;
   background: transparent;
   transition: color 0.2s, background 0.2s;
+  font-weight: 600;
 }
 .paginationNumber:hover {
   color: var(--primary-bg);

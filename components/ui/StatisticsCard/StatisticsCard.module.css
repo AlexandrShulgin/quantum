@@ -18,7 +18,7 @@
 
 .statisticsTitle {
   font-size: 0.875rem;
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 
 .statisticsLiveWrapper {
@@ -46,14 +46,14 @@
 }
 .statisticsPL {
   font-size: 1.875rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 .statisticsPLTodayWrapper {
   display: flex;
   align-items: center;
   gap: 0.25rem;
   margin-top: 0.25rem;
-  font-family: 'PR', sans-serif;
+  font-weight: 400;
 }
 .statisticsPLTodayIcon {
   width: 1rem;
@@ -63,6 +63,7 @@
 .statisticsPLTodayText {
   color: var(--green-text);
   font-size: 0.875rem;
+  font-weight: 400;
 }
 .statisticsInfoWrapper {
   display: flex;

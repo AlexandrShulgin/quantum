@@ -36,9 +36,11 @@
 }
 .mainCardSubtitle {
   color: var(--gray-text);
+  font-weight: 400;
 }
 .mainCardDesc {
   line-height: 1.6;
+  font-weight: 400;
 }
 
 /* How It Works */
@@ -81,12 +83,13 @@
   font-size: 1rem;
 }
 .howItWorksStepTitle {
-  font-weight: 500;
   margin-bottom: 0.25rem;
+  font-weight: 600;
 }
 .howItWorksStepDesc {
   color: #9ca3af;
   font-size: 0.875rem;
+  font-weight: 400;
 }
 
 /* Profit Distribution */
@@ -118,12 +121,13 @@
 }
 .profitBoxTitle {
   color: var(--green-text);
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 .profitBoxDesc {
   font-size: 0.875rem;
   margin-bottom: 0.75rem;
+  font-weight: 400;
 }
 .profitBoxList {
   display: flex;
@@ -221,6 +225,7 @@
 }
 .advantagesText {
   font-size: 0.875rem;
+  font-weight: 400;
 }
 
 /* Risks */
@@ -264,4 +269,5 @@
 }
 .risksText {
   font-size: 0.875rem;
+  font-weight: 400;
 }

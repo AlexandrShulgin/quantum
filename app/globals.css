@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'PB';
-  src: url('../assets/pb.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'PR';
+  src: url('../assets/pr.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'PR';
-  src: url('../assets/pr.ttf') format('truetype');
-  font-weight: normal;
+  src: url('../assets/pb.otf') format('opentype');
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  font-family: 'PB', sans-serif;
+  font-family: 'PR', sans-serif;
   --gray-bg: #f3f6fa;
   --gray-text: #9ca3af;
   --primary-bg: #2563eb;
@@ -42,6 +42,7 @@ body {
 
 h1, h2, h3, p, span {
   color: #000;
+  font-weight: 600;
 }
 
 @layer base {
