@@ -6,12 +6,10 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #000;
 }
 .titleIcon {
   width: 1.5rem;
   height: 1.5rem;
-  color: #000;
 }
 
 /* Основная карточка */
@@ -30,7 +28,7 @@
 .mainCardIcon {
   width: 2rem;
   height: 2rem;
-  color: #60a5fa;
+  color: var(--primary-bg);
 }
 .mainCardTitle {
   font-size: 1.25rem;
@@ -51,10 +49,12 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: #151356
 }
 .howItWorksIcon {
   width: 1.25rem;
   height: 1.25rem;
+  color: #151356
 }
 .howItWorksContent {
   display: flex;
@@ -69,14 +69,14 @@
 .howItWorksStepCircle {
   width: 2rem;
   height: 2rem;
-  background: rgba(168,85,247,0.2);
+  background: var(--primary-bg);
   border-radius: 9999px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   margin-top: 0.25rem;
-  color: #a78bfa;
+  color: #fff;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -92,34 +92,36 @@
 /* Profit Distribution */
 .profitCard {
   margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 .profitTitle {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: #151356
 }
 .profitIcon {
   width: 1.25rem;
   height: 1.25rem;
+  color: #151356;
 }
 .profitContent {
   padding: 0;
 }
 .profitBox {
   background: rgba(34,197,94,0.2);
-  border: 1px solid rgba(34,197,94,0.3);
+  border: 1px solid var(--green-text);
   border-radius: 0.5rem;
   padding: 1rem;
   margin: 1.5rem;
   margin-top: 0;
 }
 .profitBoxTitle {
-  color: #4ade80;
+  color: var(--green-text);
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 .profitBoxDesc {
-  color: #d1d5db;
   font-size: 0.875rem;
   margin-bottom: 0.75rem;
 }
@@ -133,14 +135,10 @@
   display: flex;
   justify-content: space-between;
 }
-.profitBoxLabel {
-  color: #9ca3af;
-}
-.profitBoxValue {
-  color: #fff;
-}
+
+
 .profitBoxValueGreen {
-  color: #4ade80;
+  color: var(--green-text);
 }
 
 /* Performance */
@@ -148,7 +146,7 @@
   margin-bottom: 1.5rem;
 }
 .performanceTitle {
-  color: #000;
+  color: #151356;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -156,7 +154,7 @@
 .performanceIcon {
   width: 1.25rem;
   height: 1.25rem;
-  color: #000;
+  color: #151356;
 }
 .performanceGrid {
   display: grid;
@@ -167,12 +165,12 @@
   text-align: center;
 }
 .performanceValueGreen {
-  color: #4ade80;
+  color: var(--green-text);
   font-size: 2rem;
   font-weight: bold;
 }
 .performanceValueBlue {
-  color: #60a5fa;
+  color: var(--primary-bg);
   font-size: 2rem;
   font-weight: bold;
 }
@@ -187,7 +185,6 @@
   font-weight: bold;
 }
 .performanceLabel {
-  color: #9ca3af;
   font-size: 0.875rem;
 }
 
@@ -199,10 +196,12 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: #151356;
 }
 .advantagesIcon {
   width: 1.25rem;
   height: 1.25rem;
+  color: #151356;
 }
 .advantagesContent {
   display: flex;
@@ -217,11 +216,10 @@
 .advantagesDotGreen {
   width: 0.5rem;
   height: 0.5rem;
-  background: #4ade80;
+  background: var(--green-text);
   border-radius: 9999px;
 }
 .advantagesText {
-  color: #d1d5db;
   font-size: 0.875rem;
 }
 
@@ -231,7 +229,7 @@
   border: 1px solid rgba(239,68,68,0.2);
 }
 .risksTitle {
-  color: #f87171;
+  color: var(--red-text);
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -246,7 +244,6 @@
   gap: 0.75rem;
 }
 .risksDesc {
-  color: #d1d5db;
   font-size: 0.875rem;
 }
 .risksList {
@@ -262,10 +259,9 @@
 .risksDotRed {
   width: 0.5rem;
   height: 0.5rem;
-  background: #ef4444;
+  background: var(--red-text);
   border-radius: 9999px;
 }
 .risksText {
-  color: #9ca3af;
   font-size: 0.875rem;
 }

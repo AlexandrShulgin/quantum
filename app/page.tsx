@@ -14,7 +14,7 @@ import { translations } from "@/lib/translations"
 import Main from "@/components/pages/Main/Main"
 import About from "@/components/pages/About/About"
 import Profile from "@/components/pages/Profile/Profile"
-import HistoryPage from "@/components/pages/History/HistoryPage"
+import HistoryPage from "@/components/ui/History/HistoryPage"
 import styles from './page.module.css'
 import { useLanguageStore } from "@/store/languageStore"
 import { useUserStore } from "@/store/userStore"
@@ -28,7 +28,7 @@ export default function QuantumFund() {
   return (
     <div className={styles.root}>
       {/* Header */}
-      <div className={styles.header}>
+      <div className={styles.header} style={{display: 'none'}}>
         <div className={styles.headerLeft}>
           <div className={styles.languageSwitcher}>
             <Button
@@ -79,11 +79,6 @@ export default function QuantumFund() {
         {activeTab === "home" && (
           <Main/>
         )}
-
-        {activeTab === "history" && (
-          <HistoryPage/>
-        )}
-
         {activeTab === "profile" && (
           <Profile/>
         )}
@@ -98,7 +93,6 @@ export default function QuantumFund() {
         <div className={styles.bottomNavInner}>
           {[
             { id: "home", icon: Home, label: t.home },
-            { id: "history", icon: History, label: t.history },
             { id: "profile", icon: User, label: t.profile },
             { id: "about", icon: Info, label: t.about },
           ].map((tab) => (

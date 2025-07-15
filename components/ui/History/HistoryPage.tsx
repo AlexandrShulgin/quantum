@@ -229,13 +229,19 @@ const HistoryPage = () => {
   return (
     <div>
       <div className={styles.header}>
-        <h2 className={styles.title}>
-          <History className={styles.titleIcon} />
-          {t.tradeHistory}
-        </h2>
-        <p className={styles.subtitle}>{t.last30Days}</p>
+        <div className={styles.headerLeft}>
+          <h2 className={styles.title}>
+            {t.tradeHistory}
+          </h2>
+          <p className={styles.subtitle}>{t.last30Days}</p>
+        </div>
+        <div className={styles.headerRight}>
+          <h2 className={styles.title}>
+            {t.totalPl}
+          </h2>
+          <p className={styles.subtitlePL}>+235$ (+15%)</p>
+        </div>
       </div>
-
       <div className={styles.tradesList}>
         {tradeHistory.slice((currentPage - 1) * tradesPerPage, currentPage * tradesPerPage).map((trade) => (
           <Card key={trade.id} className={styles.tradeCard}>
@@ -257,8 +263,6 @@ const HistoryPage = () => {
                     <p className={styles.tradePair}>{trade.pair}</p>
                     <div className={styles.tradeInfo}>
                       <span>{trade.time}</span>
-                      <span>•</span>
-                      <span>{trade.duration}</span>
                     </div>
                   </div>
                 </div>

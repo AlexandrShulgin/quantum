@@ -22,7 +22,7 @@ export const translations = {
     investedAmount: "Invested Amount",
     currentValue: "Current Value",
     yourShare: "Your Share",
-    investMore: "Invest More",
+    investMore: "Invest",
     withdraw: "Withdraw",
     openTrades: "Open Trades",
     zScoreEntry: "Z-Score Entry",
@@ -64,7 +64,7 @@ export const translations = {
     profitFee: "Profit Fee",
     yourProfitShare: "Your Profit Share",
     performanceMetrics: "Performance Metrics",
-    monthlyReturn: "Monthly Return",
+    monthlyReturn: "APY",
     botUptime: "Bot Uptime",
     advantages: "Advantages",
     advantage1: "Fully automated trading without emotions",
@@ -81,6 +81,7 @@ export const translations = {
 
     // History
     tradeHistory: "Trade History",
+    totalPl: "Total P&L",
     last30Days: "Last 30 days",
     success: "Success",
     loss: "Loss",
@@ -191,7 +192,7 @@ export const translations = {
     profitFee: "Комиссия с прибыли",
     yourProfitShare: "Ваша доля прибыли",
     performanceMetrics: "Показатели эффективности",
-    monthlyReturn: "Месячная доходность",
+    monthlyReturn: "APY",
     botUptime: "Работа бота",
     advantages: "Преимущества",
     advantage1: "Полностью автоматизированная торговля без эмоций",
@@ -208,6 +209,7 @@ export const translations = {
 
     // History
     tradeHistory: "История Сделок",
+    totalPl: "Итоговый P&L",
     last30Days: "Последние 30 дней",
     success: "Успех",
     loss: "Убыток",

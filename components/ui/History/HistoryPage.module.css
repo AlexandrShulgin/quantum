@@ -3,24 +3,40 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
 .title {
   font-size: 1rem;
   font-weight: bold;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #000;
 }
 .titleIcon {
-  width: 1.5rem;
-  height: 1.5rem;
-  color: #000;
+  width: 1.2rem;
+  height: 1.2rem;
 }
 .subtitle {
   color: var(--gray-text);
-  font-size: 0.875rem;
+  font-size: 0.7rem;
+}
+
+.subtitlePL {
+  color: var(--green-text);
+  font-size: 0.7rem;
 }
 
 /* Trades List */
@@ -68,16 +84,14 @@
 .tradeArrowGreen {
   width: 1.25rem;
   height: 1.25rem;
-  color: #4ade80;
+  color: var(--green-text);
 }
 .tradeArrowRed {
   width: 1.25rem;
   height: 1.25rem;
-  color: #ef4444;
+  color: var(--red-text);
 }
-.tradePair {
-  font-weight: 600;
-}
+
 .tradeInfo {
   display: flex;
   align-items: center;
@@ -90,19 +104,19 @@
 }
 .tradeProfitGreen {
   font-weight: 600;
-  color: #4ade80;
+  color: var(--green-text);
 }
 .tradeProfitRed {
   font-weight: 600;
-  color: #ef4444;
+  color: var(--red-text);
 }
 .tradePercentGreen {
   font-size: 0.75rem;
-  color: #4ade80;
+  color: var(--green-text);
 }
 .tradePercentRed {
   font-size: 0.75rem;
-  color: #ef4444;
+  color: var(--red-text);
 }
 
 /* Pagination */
@@ -112,12 +126,21 @@
   justify-content: space-between;
 }
 .paginationBtn {
-  color: #000;
-  background: transparent;
+  color: #fff;
+  background: var(--primary-bg);
   transition: background 0.2s;
 }
+
+.paginationBtn:hover {
+  color: #fff;
+  background: #2e2e2e;
+  transition: background 0.2s;
+}
+
 .paginationBtn:disabled {
+  color: #151356;
   opacity: 0.5;
+  background: transparent;
 }
 .paginationNumbers {
   display: flex;
@@ -133,6 +156,7 @@
   transition: color 0.2s, background 0.2s;
 }
 .paginationNumber:hover {
+  color: var(--primary-bg);
 }
 
 .paginationNumberActive {

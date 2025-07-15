@@ -91,8 +91,6 @@ const Profile = () => {
 
   return (
     <div>
-      <h2 className={styles.title}>{t.investmentProfile}</h2>
-
       {/* User Info Card */}
       <Card className={styles.userCard}>
         <CardContent className={styles.userCardContent}>
@@ -105,24 +103,26 @@ const Profile = () => {
           <div className={styles.userStats}>
             <div className={styles.userStatsRow}>
               <span className={styles.userStatsLabel}>{t.memberSince}</span>
-              <span className={styles.userStatsValue}>{language === "ru" ? "Январь 2024" : "January 2024"}</span>
+              <span className={styles.userStatsValue} style={{fontWeight: '600'}}>{language === "ru" ? "Январь 2024" : "January 2024"}</span>
             </div>
             <div className={styles.userStatsRow}>
               <span className={styles.userStatsLabel}>{t.totalInvested}</span>
-              <span className={styles.userStatsValue}>$5,000</span>
+              <span className={styles.userStatsValue} style={{fontWeight: '600'}}>$5,000</span>
             </div>
             <div className={styles.userStatsRow}>
               <span className={styles.userStatsLabel}>{t.currentInvestment}</span>
-              <span className={styles.userStatsValue}>$3,240</span>
+              <span className={styles.userStatsValue} style={{fontWeight: '600'}}>$3,240</span>
             </div>
             <div className={styles.userStatsRow}>
               <span className={styles.userStatsLabel}>{t.yourProfitShare}</span>
-              <span className={styles.userStatsValueGreen}>+$142.35 USDT</span>
+              <span className={styles.userStatsValueGreen} style={{fontWeight: '600'}}>+$142.35 USDT</span>
             </div>
           </div>
         </CardContent>
       </Card>
-
+      <h2 className={styles.titleHist}>
+        {t.tradeHistory}
+      </h2>
       <div className={styles.tradesList}>
         {operationsHistory.slice((currentPage - 1) * operatinsPerPage, currentPage * operatinsPerPage).map((trade) => (
           <Card key={trade.id} className={styles.tradeCard}>

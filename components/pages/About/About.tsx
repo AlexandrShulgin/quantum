@@ -12,11 +12,6 @@ const About = () => {
 
   return (
     <div>
-    <h2 className={styles.title}>
-      <Info className={styles.titleIcon} />
-      {t.aboutFund}
-    </h2>
-
     {/* Main Description */}
     <Card className={styles.mainCard}>
       <CardContent className={styles.mainCardContent}>

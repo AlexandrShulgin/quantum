@@ -15,12 +15,17 @@ body {
   --yellow-alert-bg: #fffbeb;
   --yellow-alert-border: #fef9c3;
   --yellow-alert-text: #b45309;
+  --red-text: #dc2626;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+h1, h2, h3, p, span {
+  color: #151356;
 }
 
 @layer base {

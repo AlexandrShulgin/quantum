@@ -1,7 +1,7 @@
 /* Корневой контейнер */
 .root {
   min-height: 100vh;
-  background: #ffffff;
+  background: #f4f4fc;
   color: #ffffff;
 }
 
@@ -11,7 +11,6 @@
   align-items: center;
   justify-content: end;
   padding: 1rem;
-  padding-top: 3rem;
 }
 .headerLeft {
   display: flex;
@@ -73,6 +72,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 5rem;
+  padding-top: 3rem;
 }
 
 /* Bottom Navigation */
@@ -103,7 +103,7 @@
   transition: color 0.2s;
 }
 .bottomNavBtn:hover {
-  color: #404040;
+  color: #000;
 }
 .bottomNavBtnActive {
   display: flex;
