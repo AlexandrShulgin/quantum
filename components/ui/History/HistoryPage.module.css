@@ -102,6 +102,10 @@
 .tradeRowRight {
   text-align: right;
 }
+
+.tradePair {
+}
+
 .tradeProfitGreen {
   font-weight: 600;
   color: var(--green-text);

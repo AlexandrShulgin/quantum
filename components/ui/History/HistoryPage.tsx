@@ -16,7 +16,7 @@ const HistoryPage = () => {
   const tradeHistory = [
     {
       id: 1,
-      pair: "ETHUSDT/BNBUSDT",
+      pair: "ETH/BNB",
       profit: "+24.50 USDT",
       profitPercent: "+2.07%",
       time: `1${t.hoursAgo}`,
@@ -26,7 +26,7 @@ const HistoryPage = () => {
     },
     {
       id: 2,
-      pair: "BTCUSDT/SOLUSDT",
+      pair: "BTC/SOL",
       profit: "+18.90 USDT",
       profitPercent: "+1.59%",
       time: `3${t.hoursAgo}`,
@@ -36,7 +36,7 @@ const HistoryPage = () => {
     },
     {
       id: 3,
-      pair: "ADAUSDT/DOTUSDT",
+      pair: "ADA/DOT",
       profit: "-5.20 USDT",
       profitPercent: "-0.44%",
       time: `5${t.hoursAgo}`,
@@ -46,7 +46,7 @@ const HistoryPage = () => {
     },
     {
       id: 4,
-      pair: "MATICUSDT/AVAXUSDT",
+      pair: "MATIC/AVAX",
       profit: "+31.60 USDT",
       profitPercent: "+2.67%",
       time: `8${t.hoursAgo}`,
@@ -56,7 +56,7 @@ const HistoryPage = () => {
     },
     {
       id: 5,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -66,7 +66,7 @@ const HistoryPage = () => {
     },
     {
       id: 6,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -76,7 +76,7 @@ const HistoryPage = () => {
     },
     {
       id: 7,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -86,7 +86,7 @@ const HistoryPage = () => {
     },
     {
       id: 8,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -96,7 +96,7 @@ const HistoryPage = () => {
     },
     {
       id: 9,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -106,7 +106,7 @@ const HistoryPage = () => {
     },
     {
       id: 10,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -116,7 +116,7 @@ const HistoryPage = () => {
     },
     {
       id: 11,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -126,7 +126,7 @@ const HistoryPage = () => {
     },
     {
       id: 12,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -136,7 +136,7 @@ const HistoryPage = () => {
     },
     {
       id: 13,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -146,7 +146,7 @@ const HistoryPage = () => {
     },
     {
       id: 14,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -156,7 +156,7 @@ const HistoryPage = () => {
     },
     {
       id: 15,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -166,7 +166,7 @@ const HistoryPage = () => {
     },
     {
       id: 16,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -176,7 +176,7 @@ const HistoryPage = () => {
     },
     {
       id: 17,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -186,7 +186,7 @@ const HistoryPage = () => {
     },
     {
       id: 18,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -196,7 +196,7 @@ const HistoryPage = () => {
     },
     {
       id: 19,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -206,7 +206,7 @@ const HistoryPage = () => {
     },
     {
       id: 20,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
@@ -216,7 +216,7 @@ const HistoryPage = () => {
     },
     {
       id: 21,
-      pair: "LINKUSDT/UNIUSDT",
+      pair: "LINK/UNI",
       profit: "+12.80 USDT",
       profitPercent: "+1.08%",
       time: `12${t.hoursAgo}`,
