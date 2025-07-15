@@ -100,6 +100,7 @@ export const translations = {
     maxTrades: "Max Trades",
     interval: "Interval",
     yourEarningsChart: "Your Earnings Chart",
+    portfolioOperations: "Operations",
 
     // Months
     jan: "Jan",
@@ -228,6 +229,7 @@ export const translations = {
     maxTrades: "Макс. Сделок",
     interval: "Интервал",
     yourEarningsChart: "График Ваших Доходов",
+    portfolioOperations: "Операции",
 
     // Months
     jan: "Янв",

@@ -121,7 +121,7 @@ const Profile = () => {
         </CardContent>
       </Card>
       <h2 className={styles.titleHist}>
-        {t.tradeHistory}
+        {t.portfolioOperations}
       </h2>
       <div className={styles.tradesList}>
         {operationsHistory.slice((currentPage - 1) * operatinsPerPage, currentPage * operatinsPerPage).map((trade) => (
